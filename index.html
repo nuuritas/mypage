@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+    <button class="tablinks" onclick="openTab(event, 'CV')">CV</button>
+    <button class="tablinks" onclick="openTab(event, 'Portfolio')">Portfolio</button>
+    <a href="https://www.linkedin.com/in/nuri-tas/" target="_blank" class="tablinks linkedin-icon"><i class="fa fa-linkedin-square"></i></a>
+  </div>
+
+  <div id="Home" class="tabcontent">
+    <!-- add name and make centered -->
+    <h1><center>Nuri Taş</center></h1> 
+    <h2><center>Data Analyst</center></h2>
+    
+    <! Take picture to the center-->
+    
+    <div class="about-me">
+        <center><img src="nt_pic.jpg" alt="My photo" class="about-me__photo"></center>
+        <div class="about-me__text">
+          <h2 class="about-me__heading">About Me</h2>
+          <p>I am a data analyst with experience in...</p>
+        </div>
+      </div>
+      
+
+  </div>
+
+  <div id="CV" class="tabcontent"></div>
+
+  <div id="Portfolio" class="tabcontent"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
