@@ -21,5 +21,10 @@ function openTab(evt, tabName) {
     }
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
+    
+    // add my github page to the portfolio tab
+    if (tabName === 'Portfolio') {
+      document.getElementById(tabName).innerHTML = '<iframe src="https://nuuritas.github.io/dhont_sim/" width="100%" height="1200px"></iframe>';
+    } 
   }
   
