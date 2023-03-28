@@ -25,6 +25,10 @@ function openTab(evt, tabName) {
     // add my github page to the portfolio tab
     if (tabName === 'Portfolio') {
       document.getElementById(tabName).innerHTML = '<iframe src="https://nuuritas.github.io/dhont_sim/" width="100%" height="1200px"></iframe>';
-    } 
+    }
+    
+    if (tabName === 'Hisse') {
+      document.getElementById(tabName).innerHTML = '<iframe src="https://nuuritas.github.io/hisse_takip/" width="100%" height="1200px"></iframe>';
+    }
   }
   
