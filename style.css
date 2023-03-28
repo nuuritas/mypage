@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #216CB6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/* Tabs */
+.tab {
+  overflow: hidden;
+  background-color: #216CB6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.tab button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  background-color: #216CB6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 32px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #3e8e41;
+}
+
+.tab button.active {
+  background-color: #3e8e41;
+}
+
+.tab button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.tab button.active {
+  background-color: transparent;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.tab a.linkedin-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: auto;
+}
+
+.tab a.linkedin-icon:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.tab a.github-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 10px;
+}
+
+.tab a.github-icon:hover {
+  background-color: transparent;
+  color: white;
+}
+
+/* Page Content */
+.content {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.about-me__photo {
+  flex-basis: 30%;
+  max-width: 100%;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.about-me__text {
+  flex-basis: 50%;
+}
+
+.about-me__heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+table.dataTable td,
+table.dataTable th {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #489682;
+}
+
+table.dataTable thead th {
+  background-color: #333;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Pie Chart */
+#pie-chart-container {
+  width: 50%;
+  float: right;
+}
+
+/* Table and Chart */
+#table-container,
+#chart-container {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+  padding: 20px;
+}
