@@ -24,7 +24,7 @@ function openTab(evt, tabName) {
 
     // add my github page to the portfolio tab
     if (tabName === 'Secim') {
-      document.getElementById(tabName).innerHTML = '<iframe src="https://64379403af798c512b5768bc--thriving-cobbler-dd4ec0.netlify.app/" width="100%" height="1200px"></iframe>';
+      document.getElementById(tabName).innerHTML = '<iframe src="https://64379860371c1f573456dcde--thriving-cobbler-dd4ec0.netlify.app/" width="100%" height="1200px"></iframe>';
     }
     
     if (tabName === 'Hisse') {
